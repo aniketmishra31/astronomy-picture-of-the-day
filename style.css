@@ -1,0 +1,71 @@
+/* Body tag styling */
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, #263159, #50577A);
+    color: #FFF8EA;
+    filter: blur(10%);
+}
+
+/* Styling the scrollbar */
+
+body::-webkit-scrollbar {
+    width: 0.65rem;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #434242;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #73777B;
+}
+
+/* Styling the box for the extension. */
+
+.box {
+    height: auto;
+    width: 40rem;
+    margin: 5% auto;
+    padding: 2% auto;
+
+}
+
+/* Styling the elements of the extensions indivdually */
+
+#title {
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 300%;
+}
+
+#potd {
+    width: 90%;
+    text-align: center;
+}
+
+#explanation {
+    line-height: 1.5;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 150%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+#date {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 150%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+#copyright {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 150%;
+    text-align: left;
+    padding-left: 5%;
+}
